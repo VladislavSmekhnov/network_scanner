@@ -1,0 +1,12 @@
+Connected to the Internet
+20.07.2022, 15:03:01
+Ping:	53.01 ms
+Download speed:	18.63 Mbit/s
+Upload speed:	47.53 Mbit/s
+==============================
+Connected to the Internet
+20.07.2022, 15:03:33
+Ping:	136.39 ms
+Download speed:	27.98 Mbit/s
+Upload speed:	34.68 Mbit/s
+==============================
