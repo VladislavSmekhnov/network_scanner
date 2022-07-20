@@ -1,11 +1,11 @@
-#!/usr/bin/python3
+#!~/network_scanner/linux_venv/bin/python3
 
 import pathlib
 import requests
 from datetime import datetime
 import speedtest
 import time
-
+# Do not forget to activate virtual environment before running this script!
 current_directory = pathlib.Path().resolve()
 url = 'https://www.google.com'
 file_name = 'internet_logs.txt'
@@ -45,7 +45,7 @@ def check_internet_connection(req_number=5, downtime=5):
             download_speed /= 1048576
             upload_speed /= 1048576
 
-            if 27 > download_speed > 0 and upload_speed > 0:
+            if 30 > download_speed > 0 and upload_speed > 0:
                 connection_info.clear()
 
                 ping_info = f'Ping:\t{ping:.2f} ms'
@@ -83,7 +83,7 @@ def main():
     req_number = input('Enter the number of requests: ')
     downtime = input('Enter the timeout between requests (in seconds): 25 + ')
     check_internet_connection(req_number=int(req_number), downtime=int(downtime))
-    print(f'All information is contained along this path: {current_directory}\\{file_name}')
+    print(f'All information is contained along this path: {current_directory}/{file_name}')
 
 
 if __name__ == '__main__':
