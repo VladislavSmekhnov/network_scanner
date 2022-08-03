@@ -5,7 +5,7 @@ This program tests the speed and quality of your Internet connection. After its 
 
 <u>You may change it</u> in test_connection.py on 48 line.
 
-## To run on *nix-like OS-ms:
+## To run on *nix-like OS:
 ```sh
 git clone https://github.com/VladislavSmekhnov/network_scanner.git
 cd network_scanner/
