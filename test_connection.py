@@ -45,7 +45,7 @@ def check_internet_connection(req_number=5, downtime=5):
             download_speed /= 1048576
             upload_speed /= 1048576
 
-            if 100 > download_speed > 0 and upload_speed > 0:
+            if 30 > download_speed > 0 and upload_speed > 0:
                 connection_info.clear()
 
                 ping_info = f'Ping:\t{ping:.2f} ms'
