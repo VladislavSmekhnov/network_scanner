@@ -9,7 +9,7 @@ You may change it in test_connection.py on 48 line.
 ```sh
 git clone https://github.com/VladislavSmekhnov/network_scanner.git
 cd network_scanner/
-chmod 777 run.sh
+chmod +x run.sh
 ```
 And then to start the program:
 ```sh
